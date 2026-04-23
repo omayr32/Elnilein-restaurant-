@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم النيلين | عن المطعم</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(rgba(74, 124, 89, 0.85), rgba(139, 90, 43, 0.85)), 
+                        url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 8rem 1rem 4rem;
+            margin-top: 70px;
+        }
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-top: -3rem;
+            position: relative;
+        }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .value-card {
+            text-align: center;
+            padding: 2rem;
+            background: var(--light-color);
+            border-radius: 10px;
+        }
+        .value-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><i class="fas fa-utensils"></i><span>مطعم النيلين</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html" class="active">عن المطعم</a></li>
+                    <li><a href="menu.html">قائمة الطعام</a></li>
+                    <li><a href="offers.html">العروض</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="reservation.html" class="btn">احجز طاولتك</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-hero">
+            <h1>عن مطعم النيلين</h1>
+            <p>حكاية عشق للطعام السوداني الأصيل</p>
+        </div>
+        <div class="container">
+            <div class="about-content">
+                <h2>من قلب الولاية الشمالية - دنقلا</h2>
+                <p>تأسس مطعم النيلين عام 1995 على ضفاف النيل في مدينة دنقلا العريقة، حاملًا راية المطبخ السوداني الأصيل. بدأنا كمطبخ صغير يقدم التقلية والكسرة والملوحة ، واليوم أصبحنا وجهة محبوبة لكل من يبحث عن نكهة السودان الحقيقية.</p>
+                <p>نتميز باستخدام أفضل اللحوم البلدية من أسواق دنقلا، وجميع أنواع الأسماك ، والتوابل المستوردة من أسواق السودان المختفلة. كل طبق يُعدّ بحب وفق وصفات جداتنا، مع لمسة عصرية في التقديم.</p>
+                
+                <h2>رؤيتنا</h2>
+                <p>أن نكون سفراء المطبخ السوداني في العالم، ونشر ثقافة الضيافة النوبية العريقة.</p>
+                
+                <h2>قيمنا</h2>
+                <div class="values-grid">
+                    <div class="value-card"><i class="fas fa-hand-sparkles"></i><h3>الجودة</h3><p>لحوم بلدية وخضروات طازجة يوميًا</p></div>
+                    <div class="value-card"><i class="fas fa-heart"></i><h3>الضيافة</h3><p>نستقبلكم كما يستقبل أهل النيل ضيوفهم</p></div>
+                    <div class="value-card"><i class="fas fa-leaf"></i><h3>الأصالة</h3><p>وصفات  سودانية متوارثة</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about"><div class="footer-logo"><i class="fas fa-utensils"></i> مطعم النيلين</div><p>أول مطعم سوداني أصيل في دنقلا، يقدم أشهى المأكولات السودانية.</p><div class="social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div></div>
+                <div class="footer-links"><h3>روابط سريعة</h3><ul><li><a href="index.html">الرئيسية</a></li><li><a href="about.html">عن المطعم</a></li><li><a href="menu.html">قائمة الطعام</a></li><li><a href="offers.html">العروض</a></li><li><a href="contact.html">اتصل بنا</a></li><li><a href="reservation.html">الحجز</a></li></ul></div>
+                <div class="footer-contact"><h3>معلومات التواصل</h3><p><i class="fas fa-map-marker-alt"></i> شارع النيل، حي النيل ، دنقلا - الولاية الشمالية، السودان</p><p><i class="fas fa-phone"></i> 9087654312 +249</p><p><i class="fas fa-envelope"></i> info@nilein.com</p></div>
+            </div>
+            <div class="copyright"><p>&copy; 2026 مطعم النيلين. جميع الحقوق محفوظة.</p></div>
+        </div>
+    </footer>
+</body>
+</html>

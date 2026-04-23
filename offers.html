@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم النيلين | العروض</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .offers-header {
+            background: linear-gradient(rgba(74, 124, 89, 0.85), rgba(139, 90, 43, 0.85)), 
+                        url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            text-align: center;
+            padding: 8rem 1rem 4rem;
+            margin-top: 70px;
+            color: white;
+        }
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            padding: 3rem 0;
+        }
+        .offer-box {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        .offer-box:hover { transform: translateY(-5px); }
+        .offer-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .offer-box-content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .badge {
+            background: #c0392b;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><i class="fas fa-utensils"></i><span>مطعم النيلين</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">عن المطعم</a></li>
+                    <li><a href="menu.html">قائمة الطعام</a></li>
+                    <li><a href="offers.html" class="active">العروض</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="reservation.html" class="btn">احجز طاولتك</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="offers-header">
+            <h1>عروض النيلين الحصرية</h1>
+            <p>خصومات وعروض خاصة لأهل دنقلا والزوار</p>
+        </div>
+        <div class="container">
+            <div class="offers-grid">
+                <div class="offer-box">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="عرض العائلة">
+                    <div class="offer-box-content">
+                        <span class="badge">خصم 20%</span>
+                        <h3>عرض العائلة النوبية</h3>
+                        <p>احجز لعائلة مكونة من 6 أفراد واحصل على خصم 20% على فاتورة الطعام، بالإضافة إلى قهوة سودانية مجانية.</p>
+                        <a href="reservation.html" class="btn">احجز الآن</a>
+                    </div>
+                </div>
+                <div class="offer-box">
+                    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="عرض الغداء">
+                    <div class="offer-box-content">
+                        <span class="badge">خصم 15%</span>
+                        <h3>عرض الغداء اليومي</h3>
+                        <p>من الساعة 1 ظهراً إلى 4 عصراً: خصم 15% على جميع الأطباق الرئيسية.</p>
+                        <a href="reservation.html" class="btn">استفد من العرض</a>
+                    </div>
+                </div>
+                <div class="offer-box">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="عرض الزبائن الدائمين">
+                    <div class="offer-box-content">
+                        <span class="badge">بطاقة الولاء</span>
+                        <h3>برنامج الولاء النوبي</h3>
+                        <p>اجمع نقاطاً مع كل زيارة واستبدلها بوجبات مجانية أو خصومات تصل إلى 25%.</p>
+                        <a href="contact.html" class="btn">سجل الآن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about"><div class="footer-logo"><i class="fas fa-utensils"></i> مطعم النيلين</div><p>أول مطعم سوداني أصيل في دنقلا.</p><div class="social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div></div>
+                <div class="footer-links"><h3>روابط سريعة</h3><ul><li><a href="index.html">الرئيسية</a></li><li><a href="about.html">عن المطعم</a></li><li><a href="menu.html">قائمة الطعام</a></li><li><a href="offers.html">العروض</a></li><li><a href="contact.html">اتصل بنا</a></li><li><a href="reservation.html">الحجز</a></li></ul></div>
+                <div class="footer-contact"><h3>معلومات التواصل</h3><p><i class="fas fa-map-marker-alt"></i> دنقلا - الولاية الشمالية</p><p><i class="fas fa-phone"></i> 9087654312 +249</p><p><i class="fas fa-envelope"></i> info@nilein.com</p></div>
+            </div>
+            <div class="copyright"><p>&copy; 2026 مطعم النيلين. جميع الحقوق محفوظة.</p></div>
+        </div>
+    </footer>
+</body>
+</html>

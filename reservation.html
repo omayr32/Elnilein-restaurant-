@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم النيلين | الحجوزات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reserve-header {
+            background: linear-gradient(rgba(74, 124, 89, 0.85), rgba(139, 90, 43, 0.85)), 
+                        url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            text-align: center;
+            padding: 8rem 1rem 4rem;
+            margin-top: 70px;
+            color: white;
+        }
+        .form-container {
+            max-width: 800px;
+            margin: 3rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+        .info-box {
+            background: var(--light-color);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><i class="fas fa-utensils"></i><span>مطعم النيلين</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">عن المطعم</a></li>
+                    <li><a href="menu.html">قائمة الطعام</a></li>
+                    <li><a href="offers.html">العروض</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="reservation.html" class="active btn">احجز طاولتك</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="reserve-header">
+            <h1>احجز طاولتك في مطعم النيلين</h1>
+            <p>نحن في دنقلا ننتظركم لتجربة ضيافة سودانية لا تُنسى</p>
+        </div>
+        <div class="container">
+            <div class="form-container">
+                <h2 style="text-align: center;">نموذج الحجز المسبق</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label>الاسم الكامل</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>رقم الهاتف (واتساب مفضل)</label>
+                        <input type="tel" required>
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-group">
+                        <label>تاريخ الحجز</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>الوقت</label>
+                        <select>
+                            <option>12:00 ظهراً</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            <option>18:00</option>
+                            <option>19:00</option>
+                            <option>20:00</option>
+                            <option>21:00</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>عدد الأشخاص</label>
+                        <select>
+                            <option>1 شخص</option>
+                            <option>2 أشخاص</option>
+                            <option>3 أشخاص</option>
+                            <option>4 أشخاص</option>
+                            <option>5 أشخاص</option>
+                            <option>6+ أشخاص</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>طلب خاص (مناسبة، تفضيلات، حساسية غذائية)</label>
+                        <textarea rows="3" placeholder="مثال: احتفال بعيد ميلاد، نباتي، عدم إضافة فول سوداني..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">تأكيد الحجز</button>
+                </form>
+                <div class="info-box">
+                    <i class="fas fa-phone" style="font-size: 2rem;"></i>
+                    <p>للحجز الهاتفي أو الاستفسار السريع: <strong>9087654312 +249</strong></p>
+                    <p>نرجو الحجز قبل 24 ساعة على الأقل خاصة في عطل نهاية الأسبوع والمناسبات.</p>
+                    <p><i class="fas fa-mosque"></i> نوفر مكاناً خاصاً للعائلات وصالة للرجال منفصلة.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about"><div class="footer-logo"><i class="fas fa-utensils"></i> مطعم النيلين</div><p>أول مطعم سوداني أصيل في دنقلا.</p><div class="social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div></div>
+                <div class="footer-links"><h3>روابط سريعة</h3><ul><li><a href="index.html">الرئيسية</a></li><li><a href="about.html">عن المطعم</a></li><li><a href="menu.html">قائمة الطعام</a></li><li><a href="offers.html">العروض</a></li><li><a href="contact.html">اتصل بنا</a></li><li><a href="reservation.html">الحجز</a></li></ul></div>
+                <div class="footer-contact"><h3>معلومات التواصل</h3><p><i class="fas fa-map-marker-alt"></i> دنقلا - الولاية الشمالية</p><p><i class="fas fa-phone"></i> 9087654312 +249</p><p><i class="fas fa-envelope"></i> info@nilein.com</p></div>
+            </div>
+            <div class="copyright"><p>&copy; 2026 مطعم النيلين. جميع الحقوق محفوظة.</p></div>
+        </div>
+    </footer>
+</body>
+</html>

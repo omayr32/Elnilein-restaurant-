@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم النيلين | قائمة الطعام</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-header {
+            background: linear-gradient(rgba(74, 124, 89, 0.85), rgba(139, 90, 43, 0.85)), 
+                        url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            text-align: center;
+            padding: 8rem 1rem 4rem;
+            margin-top: 70px;
+            color: white;
+        }
+        .category {
+            margin-bottom: 4rem;
+        }
+        .category h2 {
+            border-right: 5px solid var(--secondary-color);
+            padding-right: 1rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><i class="fas fa-utensils"></i><span>مطعم النيلين</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">عن المطعم</a></li>
+                    <li><a href="menu.html" class="active">قائمة الطعام</a></li>
+                    <li><a href="offers.html">العروض</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="reservation.html" class="btn">احجز طاولتك</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu-header">
+            <h1>قائمة طعامنا</h1>
+            <p>أشهى المأكولات السودانية والنوبية بأفضل المكونات المحلية</p>
+        </div>
+        <div class="container" style="padding: 3rem 15px;">
+            <!-- المقبلات السودانية -->
+            <div class="category">
+                <h2>المقبلات والفتح</h2>
+                <div class="menu-grid">
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="سلطة الجرجير"><div class="menu-item-content"><div class="menu-item-title"><h3>سلطة الجرجير الدنقلاوية</h3><span class="price">1000 ج.س</span></div><p>جرجير طازج مع عصير ليمون دنقلاوي وزيت سمسم</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الملوخية"><div class="menu-item-content"><div class="menu-item-title"><h3>ملوخية سودانية</h3><span class="price">2000 ج.س</span></div><p>ملوخية مجففة مطحونة مع أجود أنواع الكسرة</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1625938146161-0b8f3c7b9c7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الكسرة"><div class="menu-item-content"><div class="menu-item-title"><h3>الكسرة النوبية</h3><span class="price">2000 ج.س</span></div><p>خبز ذرة رقيق يقدم مع ملاح التقلية ، الملوخية</p></div></div>
+                </div>
+            </div>
+
+            <!-- الأطباق الرئيسية -->
+            <div class="category">
+                <h2>الأطباق الرئيسية</h2>
+                <div class="menu-grid">
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="العصيدة"><div class="menu-item-content"><div class="menu-item-title"><h3>العصيدة بالتقلية</h3><span class="price">3000ج.س</span></div><p>عصيدة من دقيق الذرة الرفيعة مع ملاح التقلية</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="كبدة دنقلا"><div class="menu-item-content"><div class="menu-item-title"><h3>كبدة دنقلاوية</h3><span class="price">3000 ج.س</span></div><p>كبدة جمل طازجة مقلية بالبصل والفلفل الحار والكزبرة</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الشوية"><div class="menu-item-content"><div class="menu-item-title"><h3>شية النيلين</h3><span class="price">3000 ج.س</span></div><p>لحم ضأن مشوي على الفحم مع توابل نوبية خاصة</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1585937421612-70a008356cbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="العجل"><div class="menu-item-content"><div class="menu-item-title"><h3>سمك العجل</h3><span class="price">3000 ج.س</span></div><p>سمك العجل مشوي مع صلصة الطماطم والبصل والكزبرة</p></div></div>
+                </div>
+            </div>
+   <div class="menu-item"><img src="https://images.unsplash.com/photo-1585937421612-70a008356cbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="العجل"><div class="menu-item-content"><div class="menu-item-title"><h3>سمك مقلي</h3><span class="price">3000 ج.س</span></div><p>سمك البلطي مقلي بالزيت مع البهارات </p></div></div>
+                </div>
+            </div>    
+ <div class="menu-item"><img src="https://images.unsplash.com/photo-1585937421612-70a008356cbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="العجل"><div class="menu-item-content"><div class="menu-item-title"><h3>الملوحة (التركينج)</h3><span class="price">3000 ج.س</span></div><p>أجود أنواع الملوحة بنوعيه المميزين</p></div></div>
+                </div>
+            </div>    
+
+            <!-- الحلويات والمشروبات -->
+            <div class="category">
+                <h2>حلويات ومشروبات سودانية</h2>
+                <div class="menu-grid">
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1561361513-2c000a50f0e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="القهوة"><div class="menu-item-content"><div class="menu-item-title"><h3>قهوة دنقلا</h3><span class="price">500 ج.س</span></div><p>قهوة سودانية محمصة مع الزنجبيل والقرفة</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="التبلدي"><div class="menu-item-content"><div class="menu-item-title"><h3>التبلدي (عصير القنقليز)</h3><span class="price">1000ج.س</span></div><p>عصير طبيعي من ثمار التبلدي السوداني</p></div></div>
+                        <div class="menu-item"><img src="https://images.unsplash.com/photo-1544145945-f9042538c550?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الغباش"><div class="menu-item-content"><div class="menu-item-title"><h3>الجوافة (عصير الجوافة)</h3><span class="price">1000ج.س</span></div><p>عصير الجوافة السوداني البارد</p></div></div>
+                        <div class="menu-item"><img src="https://images.unsplash.com/photo-1544145945-f9042538c550?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الغباش"><div class="menu-item-content"><div class="menu-item-title"><h3>المنقة (عصير المنقة)</h3><span class="price">1000ج.س</span></div><p>عصير المنقة السوداني البارد</p></div></div>
+                    <div class="menu-item"><img src="https://images.unsplash.com/photo-1544145945-f9042538c550?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="الغباش"><div class="menu-item-content"><div class="menu-item-title"><h3>الكركديه (عصير الكركديه)</h3><span class="price">1000ج.س</span></div><p>عصير الكركديه السوداني البارد</p></div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about"><div class="footer-logo"><i class="fas fa-utensils"></i> مطعم النيلين</div><p>أول مطعم سوداني أصيل في دنقلا.</p><div class="social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div></div>
+                <div class="footer-links"><h3>روابط سريعة</h3><ul><li><a href="index.html">الرئيسية</a></li><li><a href="about.html">عن المطعم</a></li><li><a href="menu.html">قائمة الطعام</a></li><li><a href="offers.html">العروض</a></li><li><a href="contact.html">اتصل بنا</a></li><li><a href="reservation.html">الحجز</a></li></ul></div>
+                <div class="footer-contact"><h3>معلومات التواصل</h3><p><i class="fas fa-map-marker-alt"></i> دنقلا - الولاية الشمالية</p><p><i class="fas fa-phone"></i> 9087654312 +249</p><p><i class="fas fa-envelope"></i> info@nilein.com</p></div>
+            </div>
+            <div class="copyright"><p>&copy; 2026 مطعم النيلين. جميع الحقوق محفوظة.</p></div>
+        </div>
+    </footer>
+</body>
+</html>
